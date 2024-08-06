@@ -1,0 +1,13 @@
+﻿Year,PollutantID,Pollutant_Name,PlantID,Site,Easting,Northing,Operator,SectorID,Sector,Emission,Unit,Region,Datatype
+2021,2,Carbon Dioxide as Carbon,156,Seal Sands,452150,524260,Amoco (UK) Exploration Co Ltd,3,Oil & gas exploration and production,15417.76663,Tonnes,England,O
+2021,2,Carbon Dioxide as Carbon,345,Holywell,312200,383900,BHP Billiton Petroleum Ltd,3,Oil & gas exploration and production,12132.51428,Tonnes,Wales,O
+2021,2,Carbon Dioxide as Carbon,396,Bacton,633190,334440,BP Amoco Exploration Ltd,3,Oil & gas exploration and production,25702.6505,Tonnes,England,O
+2021,2,Carbon Dioxide as Carbon,419,Dimlington,539800,420300,BP Exploration Operating Co Ltd,3,Oil & gas exploration and production,33283.25842,Tonnes,England,O
+2021,2,Carbon Dioxide as Carbon,422,Wareham,397500,85130,BP Exploration Operating Co Ltd,3,Oil & gas exploration and production,17818.04755,Tonnes,England,O
+2021,2,Carbon Dioxide as Carbon,669,South Wirral,342000,376000,Cleanaway Ltd,21,"Waste collection, treatment & disposal",24195.19391,Tonnes,England,M
+2021,2,Carbon Dioxide as Carbon,786,Coventry,434700,277670,Coventry & Solihull Waste Disposal Co Ltd,21,"Waste collection, treatment & disposal",35687.85683,Tonnes,England,M
+2021,2,Carbon Dioxide as Carbon,927,Easington,539770,420260,Dynegy Storage Ltd,3,Oil & gas exploration and production,12414.32222,Tonnes,England,O
+2021,2,Carbon Dioxide as Carbon,985,Seal Sands,451760,524080,Enron Power Operations Ltd,19,Processing & distribution of natural gas,10097.91614,Tonnes,England,O
+2021,2,Carbon Dioxide as Carbon,992,Tipton,398190,292980,Ervin Amasteel,13,Iron & steel industries,203.8334738,Tonnes,England,M
+2021,2,Carbon Dioxide as Carbon,1000,Wrexham,338600,349750,Eurocare Environmental Services Ltd,21,"Waste collection, treatment & disposal",378.3973168,Tonnes,Wales,M
+2021,2,Carbon Dioxide as Carbon,1113,Sheepbridge,437230,374570,GKN Sheepbridge Stokes Ltd,13,Iron & steel industries,201.2170246,Tonnes,England,M

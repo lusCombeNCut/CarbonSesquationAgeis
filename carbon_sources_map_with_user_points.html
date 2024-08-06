@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3da21267ad76e11d47d2b24e356f57a3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/ardhi/Leaflet.MousePosition/src/L.Control.MousePosition.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ardhi/Leaflet.MousePosition/src/L.Control.MousePosition.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3da21267ad76e11d47d2b24e356f57a3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3da21267ad76e11d47d2b24e356f57a3 = L.map(
+                "map_3da21267ad76e11d47d2b24e356f57a3",
+                {
+                    center: [55.3781, -3.436],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3499f6255fc7c1a7e1842bc79737ba47 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_3499f6255fc7c1a7e1842bc79737ba47.addTo(map_3da21267ad76e11d47d2b24e356f57a3);
+        
+    
+            var marker_029c6ca9976beb72765217a2372232da = L.marker(
+                [54.61081666360239, -1.1940830066492132],
+                {}
+            ).addTo(map_3da21267ad76e11d47d2b24e356f57a3);
+        
+    
+        var popup_872b28bc678181db5051f213c5fb7d8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d10f2728e01b5cf6ce00773e44d737aa = $(`<div id="html_d10f2728e01b5cf6ce00773e44d737aa" style="width: 100.0%; height: 100.0%;">Year: 2021 Emissions: 15417.76663 tons</div>`)[0];
+                popup_872b28bc678181db5051f213c5fb7d8e.setContent(html_d10f2728e01b5cf6ce00773e44d737aa);
+            
+        
+
+        marker_029c6ca9976beb72765217a2372232da.bindPopup(popup_872b28bc678181db5051f213c5fb7d8e)
+        ;
+
+        
+    
+    
+            marker_029c6ca9976beb72765217a2372232da.bindTooltip(
+                `<div>
+                     15417.76663
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3387cb8e4f312d2c379aed256b60fd17 = L.marker(
+                [53.34468037474124, -3.3202765047569818],
+                {}
+            ).addTo(map_3da21267ad76e11d47d2b24e356f57a3);
+        
+    
+        var popup_c129df65d272d73c24a71e6b910260ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5496f13a119c92b9d4817bcda6671b92 = $(`<div id="html_5496f13a119c92b9d4817bcda6671b92" style="width: 100.0%; height: 100.0%;">Year: 2021 Emissions: 12132.51428 tons</div>`)[0];
+                popup_c129df65d272d73c24a71e6b910260ca.setContent(html_5496f13a119c92b9d4817bcda6671b92);
+            
+        
+
+        marker_3387cb8e4f312d2c379aed256b60fd17.bindPopup(popup_c129df65d272d73c24a71e6b910260ca)
+        ;
+
+        
+    
+    
+            marker_3387cb8e4f312d2c379aed256b60fd17.bindTooltip(
+                `<div>
+                     12132.51428
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e38777db0fe66dc076ab735dfd123e0b = L.marker(
+                [52.85690749997434, 1.4623087325382256],
+                {}
+            ).addTo(map_3da21267ad76e11d47d2b24e356f57a3);
+        
+    
+        var popup_47bda1a6b3d3934ff74e68f548943009 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5c2f000e372f802b277014f6bf89d31 = $(`<div id="html_c5c2f000e372f802b277014f6bf89d31" style="width: 100.0%; height: 100.0%;">Year: 2021 Emissions: 25702.6505 tons</div>`)[0];
+                popup_47bda1a6b3d3934ff74e68f548943009.setContent(html_c5c2f000e372f802b277014f6bf89d31);
+            
+        
+
+        marker_e38777db0fe66dc076ab735dfd123e0b.bindPopup(popup_47bda1a6b3d3934ff74e68f548943009)
+        ;
+
+        
+    
+    
+            marker_e38777db0fe66dc076ab735dfd123e0b.bindTooltip(
+                `<div>
+                     25702.6505
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f56093e04308e072e46562c13962a26 = L.marker(
+                [53.66050366335657, 0.11416645889654058],
+                {}
+            ).addTo(map_3da21267ad76e11d47d2b24e356f57a3);
+        
+    
+        var popup_31500036b5d98c4f178d2248d22cc5fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc3eeb18bb9e20938da98277187fb103 = $(`<div id="html_cc3eeb18bb9e20938da98277187fb103" style="width: 100.0%; height: 100.0%;">Year: 2021 Emissions: 33283.25842 tons</div>`)[0];
+                popup_31500036b5d98c4f178d2248d22cc5fb.setContent(html_cc3eeb18bb9e20938da98277187fb103);
+            
+        
+
+        marker_9f56093e04308e072e46562c13962a26.bindPopup(popup_31500036b5d98c4f178d2248d22cc5fb)
+        ;
+
+        
+    
+    
+            marker_9f56093e04308e072e46562c13962a26.bindTooltip(
+                `<div>
+                     33283.25842
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72b9b5a4bb3242a67520187d5bf7b26e = L.marker(
+                [50.66583401639517, -2.03673591611049],
+                {}
+            ).addTo(map_3da21267ad76e11d47d2b24e356f57a3);
+        
+    
+        var popup_b55f9206045991b0f47b8a7a4d8bd9e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9eedc3bb1335d50383cc3e991c58a6da = $(`<div id="html_9eedc3bb1335d50383cc3e991c58a6da" style="width: 100.0%; height: 100.0%;">Year: 2021 Emissions: 17818.04755 tons</div>`)[0];
+                popup_b55f9206045991b0f47b8a7a4d8bd9e0.setContent(html_9eedc3bb1335d50383cc3e991c58a6da);
+            
+        
+
+        marker_72b9b5a4bb3242a67520187d5bf7b26e.bindPopup(popup_b55f9206045991b0f47b8a7a4d8bd9e0)
+        ;
+
+        
+    
+    
+            marker_72b9b5a4bb3242a67520187d5bf7b26e.bindTooltip(
+                `<div>
+                     17818.04755
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0279dc1ca2b1221319f698fc4ed6d20 = L.marker(
+                [53.2777912971262, -2.871284913512608],
+                {}
+            ).addTo(map_3da21267ad76e11d47d2b24e356f57a3);
+        
+    
+        var popup_5badd8d94cd50affb48226933c5f85d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78da7ab1d3c44e802dfe52e9c5f244a8 = $(`<div id="html_78da7ab1d3c44e802dfe52e9c5f244a8" style="width: 100.0%; height: 100.0%;">Year: 2021 Emissions: 24195.19391 tons</div>`)[0];
+                popup_5badd8d94cd50affb48226933c5f85d0.setContent(html_78da7ab1d3c44e802dfe52e9c5f244a8);
+            
+        
+
+        marker_e0279dc1ca2b1221319f698fc4ed6d20.bindPopup(popup_5badd8d94cd50affb48226933c5f85d0)
+        ;
+
+        
+    
+    
+            marker_e0279dc1ca2b1221319f698fc4ed6d20.bindTooltip(
+                `<div>
+                     24195.19391
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49bf0c855a6b234fe546bc65144e719d = L.marker(
+                [52.39595469652896, -1.491468612369704],
+                {}
+            ).addTo(map_3da21267ad76e11d47d2b24e356f57a3);
+        
+    
+        var popup_8defdf5122efff04ae6c9e0bfe26d2a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d527f85121e9b6bb3b887577f8f321d5 = $(`<div id="html_d527f85121e9b6bb3b887577f8f321d5" style="width: 100.0%; height: 100.0%;">Year: 2021 Emissions: 35687.85683 tons</div>`)[0];
+                popup_8defdf5122efff04ae6c9e0bfe26d2a1.setContent(html_d527f85121e9b6bb3b887577f8f321d5);
+            
+        
+
+        marker_49bf0c855a6b234fe546bc65144e719d.bindPopup(popup_8defdf5122efff04ae6c9e0bfe26d2a1)
+        ;
+
+        
+    
+    
+            marker_49bf0c855a6b234fe546bc65144e719d.bindTooltip(
+                `<div>
+                     35687.85683
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d631a4659e806a101597a13db28f1bfe = L.marker(
+                [53.66015239258071, 0.11369481743822504],
+                {}
+            ).addTo(map_3da21267ad76e11d47d2b24e356f57a3);
+        
+    
+        var popup_96586b35a64f526abe1eefaee8f3fa55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4874e83b10ce42e77b93c0c66373f05a = $(`<div id="html_4874e83b10ce42e77b93c0c66373f05a" style="width: 100.0%; height: 100.0%;">Year: 2021 Emissions: 12414.32222 tons</div>`)[0];
+                popup_96586b35a64f526abe1eefaee8f3fa55.setContent(html_4874e83b10ce42e77b93c0c66373f05a);
+            
+        
+
+        marker_d631a4659e806a101597a13db28f1bfe.bindPopup(popup_96586b35a64f526abe1eefaee8f3fa55)
+        ;
+
+        
+    
+    
+            marker_d631a4659e806a101597a13db28f1bfe.bindTooltip(
+                `<div>
+                     12414.32222
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64a9b4f67a58151978e24ebe72e59b5e = L.marker(
+                [54.60923923388611, -1.2001523835746095],
+                {}
+            ).addTo(map_3da21267ad76e11d47d2b24e356f57a3);
+        
+    
+        var popup_735d9c2339f183de031bc96ca99c1709 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ec5ebc6db09d1009a35a167bfb908ab = $(`<div id="html_0ec5ebc6db09d1009a35a167bfb908ab" style="width: 100.0%; height: 100.0%;">Year: 2021 Emissions: 10097.91614 tons</div>`)[0];
+                popup_735d9c2339f183de031bc96ca99c1709.setContent(html_0ec5ebc6db09d1009a35a167bfb908ab);
+            
+        
+
+        marker_64a9b4f67a58151978e24ebe72e59b5e.bindPopup(popup_735d9c2339f183de031bc96ca99c1709)
+        ;
+
+        
+    
+    
+            marker_64a9b4f67a58151978e24ebe72e59b5e.bindTooltip(
+                `<div>
+                     10097.91614
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e1b15caa3bbef43ce4caae2490e87e6 = L.marker(
+                [52.53468046325688, -2.0281143931131282],
+                {}
+            ).addTo(map_3da21267ad76e11d47d2b24e356f57a3);
+        
+    
+        var popup_499baad4cae6b514e61d5016c8b0d4e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fe4d2b2ba659a3269a87e6a1139c3d3 = $(`<div id="html_0fe4d2b2ba659a3269a87e6a1139c3d3" style="width: 100.0%; height: 100.0%;">Year: 2021 Emissions: 203.8334738 tons</div>`)[0];
+                popup_499baad4cae6b514e61d5016c8b0d4e8.setContent(html_0fe4d2b2ba659a3269a87e6a1139c3d3);
+            
+        
+
+        marker_8e1b15caa3bbef43ce4caae2490e87e6.bindPopup(popup_499baad4cae6b514e61d5016c8b0d4e8)
+        ;
+
+        
+    
+    
+            marker_8e1b15caa3bbef43ce4caae2490e87e6.bindTooltip(
+                `<div>
+                     203.8334738
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_117c10fd6b087213ea445dabaf5eacbc = L.marker(
+                [53.04147903303057, -2.917222889944299],
+                {}
+            ).addTo(map_3da21267ad76e11d47d2b24e356f57a3);
+        
+    
+        var popup_c7d878c606706b3f76bee50a329e0af7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47c923fc03acd393f9c6f4bef414d3b7 = $(`<div id="html_47c923fc03acd393f9c6f4bef414d3b7" style="width: 100.0%; height: 100.0%;">Year: 2021 Emissions: 378.3973168 tons</div>`)[0];
+                popup_c7d878c606706b3f76bee50a329e0af7.setContent(html_47c923fc03acd393f9c6f4bef414d3b7);
+            
+        
+
+        marker_117c10fd6b087213ea445dabaf5eacbc.bindPopup(popup_c7d878c606706b3f76bee50a329e0af7)
+        ;
+
+        
+    
+    
+            marker_117c10fd6b087213ea445dabaf5eacbc.bindTooltip(
+                `<div>
+                     378.3973168
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bad6df4fba31d1d699c6027c915483d = L.marker(
+                [53.26682366446164, -1.4432683471588383],
+                {}
+            ).addTo(map_3da21267ad76e11d47d2b24e356f57a3);
+        
+    
+        var popup_9684e99178bffb74c3b28023893ccd95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dee166c64e2eb3bd001e3e88bdf0ef7b = $(`<div id="html_dee166c64e2eb3bd001e3e88bdf0ef7b" style="width: 100.0%; height: 100.0%;">Year: 2021 Emissions: 201.2170246 tons</div>`)[0];
+                popup_9684e99178bffb74c3b28023893ccd95.setContent(html_dee166c64e2eb3bd001e3e88bdf0ef7b);
+            
+        
+
+        marker_4bad6df4fba31d1d699c6027c915483d.bindPopup(popup_9684e99178bffb74c3b28023893ccd95)
+        ;
+
+        
+    
+    
+            marker_4bad6df4fba31d1d699c6027c915483d.bindTooltip(
+                `<div>
+                     201.2170246
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var options = {
+              position: "topleft",
+              draw: {},
+              edit: {},
+            }
+            // FeatureGroup is to store editable layers.
+            var drawnItems_draw_control_6fa722303365438f00a9125f28660055 = new L.featureGroup().addTo(
+                map_3da21267ad76e11d47d2b24e356f57a3
+            );
+            options.edit.featureGroup = drawnItems_draw_control_6fa722303365438f00a9125f28660055;
+            var draw_control_6fa722303365438f00a9125f28660055 = new L.Control.Draw(
+                options
+            ).addTo( map_3da21267ad76e11d47d2b24e356f57a3 );
+            map_3da21267ad76e11d47d2b24e356f57a3.on(L.Draw.Event.CREATED, function(e) {
+                var layer = e.layer,
+                    type = e.layerType;
+                var coords = JSON.stringify(layer.toGeoJSON());
+                layer.on('click', function() {
+                    alert(coords);
+                    console.log(coords);
+                });
+                drawnItems_draw_control_6fa722303365438f00a9125f28660055.addLayer(layer);
+             });
+            map_3da21267ad76e11d47d2b24e356f57a3.on('draw:created', function(e) {
+                drawnItems_draw_control_6fa722303365438f00a9125f28660055.addLayer(e.layer);
+            });
+            
+        
+    
+            var mouse_position_b6775745646877963229f0d6269edeb7 = new L.Control.MousePosition(
+                {"emptyString": "Unavailable", "lngFirst": false, "numDigits": 5, "position": "bottomright", "prefix": "", "separator": " : "}
+            );
+            mouse_position_b6775745646877963229f0d6269edeb7.options["latFormatter"] =
+                undefined;
+            mouse_position_b6775745646877963229f0d6269edeb7.options["lngFormatter"] =
+                undefined;
+            map_3da21267ad76e11d47d2b24e356f57a3.addControl(mouse_position_b6775745646877963229f0d6269edeb7);
+        
+</script>
+</html>
