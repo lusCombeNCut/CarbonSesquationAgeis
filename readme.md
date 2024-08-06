@@ -1,5 +1,5 @@
 #### Environment Setup
-
+Download anaconda navigator: [here](https://www.anaconda.com/download)
 Using anaconda navigator create a new environment (Python version should not be important but use 3.10.14 for compatability)
 
 ```
@@ -18,3 +18,5 @@ To run the application use:
 ```
 python app.py
 ```
+
+Then open a web browser and go to http://127.0.0.1:5000/
