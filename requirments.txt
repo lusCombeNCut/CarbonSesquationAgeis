@@ -1,0 +1,55 @@
+﻿# packages in environment at C:\Users\Orlan\anaconda3\envs\GIS:
+#
+# Name                    Version                   Build  Channel
+blinker                   1.6.2           py310haa95532_0  
+branca                    0.7.2                    pypi_0    pypi
+bzip2                     1.0.8                h2bbff1b_6  
+ca-certificates           2024.7.2             haa95532_0  
+certifi                   2024.7.4                 pypi_0    pypi
+charset-normalizer        3.3.2                    pypi_0    pypi
+click                     8.1.7           py310haa95532_0  
+colorama                  0.4.6           py310haa95532_0  
+contourpy                 1.2.1                    pypi_0    pypi
+cycler                    0.12.1                   pypi_0    pypi
+et_xmlfile                1.1.0           py310haa95532_0  
+flask                     3.0.3           py310haa95532_0  
+folium                    0.17.0                   pypi_0    pypi
+fonttools                 4.53.1                   pypi_0    pypi
+geographiclib             2.0                      pypi_0    pypi
+geopandas                 1.0.1                    pypi_0    pypi
+geopy                     2.4.1                    pypi_0    pypi
+idna                      3.7                      pypi_0    pypi
+itsdangerous              2.2.0           py310haa95532_0  
+jinja2                    3.1.4           py310haa95532_0  
+kiwisolver                1.4.5                    pypi_0    pypi
+libffi                    3.4.4                hd77b12b_1  
+markupsafe                2.1.5                    pypi_0    pypi
+matplotlib                3.9.0                    pypi_0    pypi
+numpy                     2.0.1                    pypi_0    pypi
+openpyxl                  3.1.5           py310h827c3e9_0  
+openssl                   3.0.14               h827c3e9_0  
+packaging                 24.1                     pypi_0    pypi
+pandas                    2.2.2                    pypi_0    pypi
+pillow                    10.4.0                   pypi_0    pypi
+pip                       24.0            py310haa95532_0  
+pyogrio                   0.9.0                    pypi_0    pypi
+pyparsing                 3.1.2                    pypi_0    pypi
+pyproj                    3.6.1                    pypi_0    pypi
+python                    3.10.14              he1021f5_1  
+python-dateutil           2.9.0.post0              pypi_0    pypi
+pytz                      2024.1                   pypi_0    pypi
+requests                  2.32.3                   pypi_0    pypi
+setuptools                72.1.0          py310haa95532_0  
+shapely                   2.0.5                    pypi_0    pypi
+six                       1.16.0                   pypi_0    pypi
+sqlite                    3.45.3               h2bbff1b_0  
+tk                        8.6.14               h0416ee5_0  
+tzdata                    2024.1                   pypi_0    pypi
+urllib3                   2.2.2                    pypi_0    pypi
+vc                        14.2                 h2eaa2aa_4  
+vs2015_runtime            14.29.30133          h43f2093_4  
+werkzeug                  3.0.3           py310haa95532_0  
+wheel                     0.43.0          py310haa95532_0  
+xyzservices               2024.6.0                 pypi_0    pypi
+xz                        5.4.6                h8cc25b3_1  
+zlib                      1.2.13               h8cc25b3_1  
