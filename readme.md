@@ -13,10 +13,4 @@ To use the python code you need to install the required packages using:
 pip install -r requirements.txt
 ```
 
-To run the application use:
-
-```
-python app.py
-```
-
-Then open a web browser and go to http://127.0.0.1:5000/
+To run the application open the html file outputed in the folder of the python code
