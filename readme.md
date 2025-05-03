@@ -1,3 +1,6 @@
+## Efficeint Network Desgin for Carbon Sequestration 
+This repository contains the code that was used during the 2024 Ageis Proffesor competition, along side a poster and presentation.
+
 ##### Data used
 [Point sources](https://naei.beis.gov.uk/mapping/mapping_2021/NAEIPointsSources_2021.xlsx)
 
