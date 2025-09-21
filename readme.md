@@ -1,11 +1,17 @@
 ## Efficient Network Design for Carbon Sequestration 
 This repository contains the code that was used during the 2024 [Ageis Professor competition] (https://apuc.blogs.bristol.ac.uk/), alongside a poster and presentation.
 
-##### Data used
+Here is a demo of the algorithm connecting the carbon sources and sinks.
+<p align="center">
+  <img src="map-demo.gif" alt="Demo" width="500"/>
+  
+</p>
+
+### Data used:
 [Point sources](https://naei.beis.gov.uk/mapping/mapping_2021/NAEIPointsSources_2021.xlsx)
 
 [Google Drive (With sequestration sites) ](https://drive.google.com/drive/folders/1dsoveRz9gkSwWfCyYqlCNSX_3wJbssMZ?usp=sharing)
-#### Environment Setup
+### Environment Setup
 Download anaconda navigator: [here](https://www.anaconda.com/download)
 Using anaconda navigator create a new environment (Python version should not be important but use 3.10.14 for compatibility)
 
